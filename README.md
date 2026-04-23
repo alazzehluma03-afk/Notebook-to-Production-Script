@@ -8,7 +8,7 @@ pip install -r requirements.txt
 # Usage
 Run the pipeline directly from your terminal using the following command structure:
 ```bash
-python compare_models.py --data-path <path_to_csv> [ARGUMENTS]
+python model_comparison --data-path data/telecom_churn.csv
 ```
 # Arguments
 Argument,Type,Default,Description
